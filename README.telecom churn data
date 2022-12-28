@@ -1,0 +1,2 @@
+Telecom Churn Customer Prediction:
+We need to forecast if a specific customer will migrate to another TelecomDf provider or not using 21 predictor variables. This is referred to as churning and not churning, respectively, in TelecomDf jargon.
