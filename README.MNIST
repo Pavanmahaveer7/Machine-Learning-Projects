@@ -1,0 +1,21 @@
+1.Here we are taking the MNIST fashion data set and using tensorflow libraries.
+
+Tensorflow used for: It is more powerful than the sequential API in the sense branching or sharing of layers is allowed here. And also it can have multiple inputs and outputs
+
+Dataset: Fashion-MNIST is a dataset of Zalando's article images—consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes. Zalando intends Fashion-MNIST to serve as a direct drop-in replacement for the original MNIST dataset for benchmarking machine learning algorithms. It shares the same image size and structure of training and testing splits.
+
+2.There are two methods in training the DEEP LEARNING MODEL ,those are sequential method and functional api
+
+3.In sequential , we cannot have multiple input at a time , it is designed layer by layer
+
+4.First we did batchnormalization and dropout layering for sequential methods, we got accuracy of 86 and 90 % respectively,
+
+5.Functional api : It is more advanced than the sequential API in the sense branching or sharing of layers is allowed here and also it can have multiple inputs and outputs.
+
+Optimizer:Here we used Adam optimizer, it is a replacement optimization algorithm for stochastic gradient descent for training deep learning models.
+
+6.After adding the batchnormaliation and drop out layers , we compile the model and fit the model to run epochs with set limit.
+
+AActivation function: it defines the what node/nueron has to do .
+
+7.So after the fit we got 90.8 % and 87% accuracy in functional api.
