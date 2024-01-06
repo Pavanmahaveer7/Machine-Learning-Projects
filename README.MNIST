@@ -1,3 +1,5 @@
+DEEP LEARNING PROJECT- MASTERS COURSE WORK
+
 1.Here we are taking the MNIST fashion data set and using tensorflow libraries.
 
 Tensorflow used for: It is more powerful than the sequential API in the sense branching or sharing of layers is allowed here. And also it can have multiple inputs and outputs
